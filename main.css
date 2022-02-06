@@ -102,7 +102,7 @@ svg.wave3{
 
 svg.wave4{
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
 }
 
 svg.wave5{
@@ -141,6 +141,12 @@ img.cartoon{
 img.VRImage{
     width: 700px;
     height: 500px;
+}
+
+div.section2Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.bg-square{
@@ -224,4 +230,92 @@ img.social{
     width: 150px;
     height: 100px;
     margin: auto;
+}
+
+@media (max-width: 1800px) {
+    div.section2Image{
+        flex-direction: column;
+    }
+
+    div.rightContent{
+        margin-top: 7vw;
+        margin-bottom: 15vw;
+    }
+}
+
+@media (max-width: 1500px) {
+    div.section2Image{
+        flex-direction: column;
+    }
+
+    section.section2{
+        flex-direction: column;
+    }
+
+    h1.transf{
+        margin-left: 0px;
+    }
+
+    div.bg-square{
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    div.rightContent{
+        margin-top: 7vw;
+        margin-bottom: 15vw;
+    }
+
+    h1.vr{
+        font-size: 7vw;
+    }
+    
+    h2.subtitle{
+        font-size: 3vw;
+        margin-bottom: 20px;
+    }
+
+    a.button{
+        width: 20vw;
+        height: 5vw;
+        font-size: 3vw;
+    }
+
+    div.aboutSection{
+        flex-direction: column;
+    }
+
+    p.aboutText{
+        font-size: 4vw;
+        width: 85%;
+        margin-bottom: 60px;
+    }
+
+    section.section2{
+        flex-direction: column;
+        padding-top: 2vw;
+    }
+
+    div.section2Image{
+        flex-direction: column;
+    }
+
+    img.VRImage{
+        margin-left: 0px;
+        width: 90%;
+        height: auto;
+    }
+
+    h1.transf{
+        font-family: "Baloo Bhaijaan 2";
+        font-size: 10vw;
+        margin-left: 0px;
+    }
+
+    img.aboutImage{
+        width: 80%;
+        height: auto;
+    }
 }
