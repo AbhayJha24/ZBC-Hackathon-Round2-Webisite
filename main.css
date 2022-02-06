@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Quintessential&family=Yellowtail&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+}
+
+section.section1{
+    background: url("./images/background.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+nav.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 1%;
+    margin-right: 10vw;
+}
+
+li.navButton{
+    list-style: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Baloo Bhaijaan 2";
+}
+
+div.mainContent{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+div.rightContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-right: 10vw;
+    margin-bottom: 300px;
+}
+
+h1.vr{
+    color: #ffffff;
+    font-family: Quintessential;
+    font-size: 96px;
+}
+
+h2.subtitle{
+    color: #ffffff;
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+div.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 45px;
+    padding: 2%;
+    border-radius: 50px;
+    font-family: "Baloo Bhaijaan 2";
+    background-color: #ffd000;
+    font-size: 28px;
+}
+
+svg.wave1{
+    position: absolute;
+    bottom: -1px;
+}
+
+svg.wave2{
+    position: absolute;
+    bottom: 10px;
+}
+
+svg.wave3{
+    position: absolute;
+    bottom: 20px;
+}
+
+svg.wave4{
+    position: absolute;
+    bottom: 0px;
+}
+
+svg.wave5{
+    position: absolute;
+    bottom: 10px;
+}
+
+svg.wave6{
+    position: absolute;
+    bottom: 20px;
+}
+
+section.section2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+h1.transf{
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 96px;
+    text-align: center;
+    margin-left: 10vw;
+    color: #ff9253;
+}
+
+img.cartoon{
+    width: 260px;
+    height: 280px;
+}
+
+img.VRImage{
+    width: 700px;
+    height: 500px;
+}
+
+div.bg-square{
+    position: absolute;
+    background: linear-gradient(341deg,#8400ff,#008cff);
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg);
+    top: 100px;
+    left: 100px;
+    box-shadow: 2px 2px 1px 2px rgba(207, 207, 207, 0.856);
+}
+
+section.section3{
+    position: relative;
+    display: flex;
+}
+
+section.section4{
+    position: relative;
+    padding-bottom: 200px;
+}
+
+video.video{
+    width: 100%;
+}
+
+div.aboutSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15%;
+    padding-top: 100px;
+}
+
+h1.about{
+    font-family: Quintessential;
+    font-size: 96px;
+    text-align: center;
+    color: #9d53ff;
+}
+
+p.aboutText{
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 24px;
+    text-align: center;
+    width: 25%;
+    /* color: #ff9253; */
+}
+
+img.aboutImage{
+    width: 400px;
+    height: 400px;
+}
+
+h1.userCounter{
+    font-family: "Baloo Bhaijaan 2";
+    font-size: 24px;
+    text-align: center;
+}
+
+img.counter{
+    display: block;
+    margin: auto;
+}
+
+section.footer{
+    background-color: #008cff;
+}
+
+h1.footerText{
+    font-family: Quintessential;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+
+img.social{
+    display: block;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
