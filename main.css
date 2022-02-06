@@ -65,7 +65,9 @@ h2.subtitle{
     margin-bottom: 20px;
 }
 
-div.button{
+a.button{
+    text-decoration: none;
+    color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +78,11 @@ div.button{
     font-family: "Baloo Bhaijaan 2";
     background-color: #ffd000;
     font-size: 28px;
+    z-index: 1;
+}
+
+a.button:hover{
+    cursor: pointer;
 }
 
 svg.wave1{
